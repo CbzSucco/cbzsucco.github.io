@@ -21,7 +21,39 @@
 ### $ .gitignore
 - Este archivo nos permite ignorar archivos o directorios los cuales no queramos que entren en el seguimiento de nuestro repositorio. por ejemplo los ejecutables de archivos de C que no queramos guardar, que sólo queramos el codigo fuente
 
+
 ### Deshaciendo Comandos
 ### $ git checkout
 - Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio
 --Lleva como argumento el ID del commit o parte de.
+
+### $ git revert ["direccion del commit"]
+- Se esta trabajansdo sobre la hiustorio de mi repositorio
+- Revierte un estado, generando un nuevo commit
+
+# $ git reset --hard
+- Deshace permanentemente los cambios del área de preparación
+
+### $ git clean -f
+- Borrar permanentemente lso archivos no seguidos por git
+
+
+### Branch
+- Una rama es , en pocas palabras, una línea independiente de trabajo, la cual no afecta 
+
+# $ git branch [<nombre>]
+- Lista las ramas existentes en el repositorio.
+-- Si se le agrega [<nombre>] de rama como argumento, se reará una rama con ese nombre.
+
+# $ git merge
+- Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente.
+-- Recibe como parametro la rama objetivo
+
+# $ git diff
+- Muestra los cambios efectuados en el codigo que se este trabajando en el momento
+
+
+# Conflictos cde merging
+- A veces se está trabajando en 2 ramas al mismo tiempo, modicficando un mismo archivo, se pueden generar conflictos, por lo que es necesario corregirlos
+
+

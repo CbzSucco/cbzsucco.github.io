@@ -10,7 +10,7 @@
 - este comando empieza a seguir a uno o más archivos y los agrega al área de preparación, generando un nuevo estado de nuestro proyecto. La bandera -A agrega todos los archivos repositorio. $ git add <archivo> || -A 
 - prepara un archivo para nuevas etapas
 
-### $ git commit [-m "descripcion] 
+### $ git commit [-m "descripcion"] 
 - Este comando registra nuestro nuevo estado y lo registra en la historia de nuestro repositorio. Por lo genereal este comando se usa con la bandera -m y un pequeño texto que describa lo que hicimos.
 
 ### $ git log
@@ -18,8 +18,10 @@
 -- La bandera --oneline muestra cada entrada en una sola línea.
 -- También es posible ver la historia de un solo archivo, pasando como argumento el nombre de éste
 
-### $ gitignore
+### $ .gitignore
 - Este archivo nos permite ignorar archivos o directorios los cuales no queramos que entren en el seguimiento de nuestro repositorio. por ejemplo los ejecutables de archivos de C que no queramos guardar, que sólo queramos el codigo fuente
 
-### $ .gitignore
-- Es un archivo donde se indica que archivos o carpetas se van a ignorar
+### Deshaciendo Comandos
+### $ git checkout
+- Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio
+--Lleva como argumento el ID del commit o parte de.

@@ -17,3 +17,9 @@
 - Este comando nos muestra el historial de commits que hemos hecho en nuestro proyecto.
 -- La bandera --oneline muestra cada entrada en una sola línea.
 -- También es posible ver la historia de un solo archivo, pasando como argumento el nombre de éste
+
+### $ gitignore
+- Este archivo nos permite ignorar archivos o directorios los cuales no queramos que entren en el seguimiento de nuestro repositorio. por ejemplo los ejecutables de archivos de C que no queramos guardar, que sólo queramos el codigo fuente
+
+### $ .gitignore
+- Es un archivo donde se indica que archivos o carpetas se van a ignorar
